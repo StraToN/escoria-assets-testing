@@ -1,0 +1,1 @@
+# escoria-assets-testing
