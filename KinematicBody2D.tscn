@@ -1,4 +1,4 @@
-[gd_scene load_steps=59 format=2]
+[gd_scene load_steps=63 format=2]
 
 [ext_resource path="res://new_script.gd" type="Script" id=1]
 [ext_resource path="res://ressources/take_right/take_right0.png" type="Texture" id=2]
@@ -56,6 +56,10 @@
 [ext_resource path="res://ressources/walk_right/walk_right8.png" type="Texture" id=54]
 [ext_resource path="res://ressources/walk_right/walk_right9.png" type="Texture" id=55]
 [ext_resource path="res://ressources/walk_right/walk_right10.png" type="Texture" id=56]
+[ext_resource path="res://ressources/take_back/take_back0.png" type="Texture" id=57]
+[ext_resource path="res://ressources/take_back/take_back1.png" type="Texture" id=58]
+[ext_resource path="res://ressources/take_back/take_back2.png" type="Texture" id=59]
+[ext_resource path="res://ressources/take_back/take_back3.png" type="Texture" id=60]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -108,6 +112,11 @@ animations = [ {
 "loop": false,
 "name": "walk_right",
 "speed": 2.0
+}, {
+"frames": [ ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 59 ) ],
+"loop": true,
+"name": "take_back",
+"speed": 5.0
 } ]
 
 [sub_resource type="CircleShape2D" id=2]
@@ -118,8 +127,7 @@ script = ExtResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 234, 276 )
 frames = SubResource( 1 )
-animation = "yesleft"
-frame = 2
+animation = "take_front"
 speed_scale = 0.75
 playing = true
 centered = false
