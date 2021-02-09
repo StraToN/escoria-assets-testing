@@ -1,134 +1,130 @@
-[gd_scene load_steps=64 format=2]
+[gd_scene load_steps=60 format=2]
 
 [ext_resource path="res://new_script.gd" type="Script" id=1]
-[ext_resource path="res://aroundyesandno/01no.png" type="Texture" id=2]
-[ext_resource path="res://aroundyesandno/02no.png" type="Texture" id=3]
-[ext_resource path="res://aroundyesandno/03no.png" type="Texture" id=4]
-[ext_resource path="res://circular_movement_head/03circular.png" type="Texture" id=5]
-[ext_resource path="res://circular_movement_head/02circularmodif.png" type="Texture" id=6]
-[ext_resource path="res://circular_movement_head/01circular.png" type="Texture" id=7]
-[ext_resource path="res://circular_movement_head/04circular.png" type="Texture" id=8]
-[ext_resource path="res://circular_movement_head/05circular.png" type="Texture" id=9]
-[ext_resource path="res://circular_movement_head/06circular.png" type="Texture" id=10]
-[ext_resource path="res://aroundyesandno/07hautgauche.png" type="Texture" id=11]
-[ext_resource path="res://aroundyesandno/08haut.png" type="Texture" id=12]
-[ext_resource path="res://aroundyesandno/09hautdroit.png" type="Texture" id=13]
-[ext_resource path="res://marche_vers_gauche/0.png" type="Texture" id=14]
-[ext_resource path="res://marche_vers_gauche/1.png" type="Texture" id=15]
-[ext_resource path="res://marche_vers_gauche/2.png" type="Texture" id=16]
-[ext_resource path="res://marche_vers_gauche/3.png" type="Texture" id=17]
-[ext_resource path="res://marche_vers_gauche/4.png" type="Texture" id=18]
-[ext_resource path="res://marche_vers_gauche/5.png" type="Texture" id=19]
-[ext_resource path="res://marche_vers_gauche/6.png" type="Texture" id=20]
-[ext_resource path="res://marche_vers_gauche/7.png" type="Texture" id=21]
-[ext_resource path="res://marche_vers_gauche/8.png" type="Texture" id=22]
-[ext_resource path="res://marche_vers_gauche/9.png" type="Texture" id=23]
-[ext_resource path="res://marche_vers_gauche/10.png" type="Texture" id=24]
-[ext_resource path="res://marche_vers_gauche/11.png" type="Texture" id=25]
-[ext_resource path="res://marche_vers_droite/0.png" type="Texture" id=26]
-[ext_resource path="res://marche_vers_droite/1.png" type="Texture" id=27]
-[ext_resource path="res://marche_vers_droite/2.png" type="Texture" id=28]
-[ext_resource path="res://marche_vers_droite/3.png" type="Texture" id=29]
-[ext_resource path="res://marche_vers_droite/4.png" type="Texture" id=30]
-[ext_resource path="res://marche_vers_droite/5.png" type="Texture" id=31]
-[ext_resource path="res://marche_vers_droite/6.png" type="Texture" id=32]
-[ext_resource path="res://marche_vers_droite/7.png" type="Texture" id=33]
-[ext_resource path="res://marche_vers_droite/8.png" type="Texture" id=34]
-[ext_resource path="res://marche_vers_droite/9.png" type="Texture" id=35]
-[ext_resource path="res://marche_vers_droite/10.png" type="Texture" id=36]
-[ext_resource path="res://marche_vers_droite/11.png" type="Texture" id=37]
-[ext_resource path="res://marche_devant/0_avant.png" type="Texture" id=38]
-[ext_resource path="res://marche_devant/1_avant.png" type="Texture" id=39]
-[ext_resource path="res://marche_devant/2_avant.png" type="Texture" id=40]
-[ext_resource path="res://marche_devant/3_avant.png" type="Texture" id=41]
-[ext_resource path="res://marche_devant/4_avant.png" type="Texture" id=42]
-[ext_resource path="res://marche_devant/5_avant.png" type="Texture" id=43]
-[ext_resource path="res://marche_devant/6_avant.png" type="Texture" id=44]
-[ext_resource path="res://marche_devant/7_avant.png" type="Texture" id=45]
-[ext_resource path="res://marche_de_dos/1_dos.png" type="Texture" id=46]
-[ext_resource path="res://marche_de_dos/2_dos.png" type="Texture" id=47]
-[ext_resource path="res://marche_de_dos/3_dos.png" type="Texture" id=48]
-[ext_resource path="res://marche_de_dos/4_dos.png" type="Texture" id=49]
-[ext_resource path="res://marche_de_dos/6_dos.png" type="Texture" id=50]
-[ext_resource path="res://marche_de_dos/5_dos.png" type="Texture" id=51]
-[ext_resource path="res://marche_de_dos/7_dos.png" type="Texture" id=52]
-[ext_resource path="res://marche_de_dos/8_dos.png" type="Texture" id=53]
-[ext_resource path="res://aroundyesandno/04basgauche.png" type="Texture" id=54]
-[ext_resource path="res://aroundyesandno/05bas.png" type="Texture" id=55]
-[ext_resource path="res://aroundyesandno/06basdroit.png" type="Texture" id=56]
-[ext_resource path="res://aroundyesandno/10yes.png" type="Texture" id=57]
-[ext_resource path="res://aroundyesandno/11yes.png" type="Texture" id=58]
-[ext_resource path="res://aroundyesandno/12yes.png" type="Texture" id=59]
-[ext_resource path="res://aroundyesandno/13yesdecotebas.png" type="Texture" id=60]
-[ext_resource path="res://aroundyesandno/14yesdecote.png" type="Texture" id=61]
-[ext_resource path="res://aroundyesandno/15yesdecotehaut.png" type="Texture" id=62]
+[ext_resource path="res://ressources/take_right/take_right0.png" type="Texture" id=2]
+[ext_resource path="res://ressources/take_right/take_right1.png" type="Texture" id=3]
+[ext_resource path="res://ressources/take_right/take_right3.png" type="Texture" id=4]
+[ext_resource path="res://ressources/yes_left/13yesleftbottom.png" type="Texture" id=5]
+[ext_resource path="res://ressources/yes_left/14yesleft.png" type="Texture" id=6]
+[ext_resource path="res://ressources/yes_left/15yesleftup.png" type="Texture" id=7]
+[ext_resource path="res://ressources/walk_right/walk_right0.png" type="Texture" id=8]
+[ext_resource path="res://ressources/walk_right/walk_right1.png" type="Texture" id=9]
+[ext_resource path="res://ressources/walk_right/walk_right2.png" type="Texture" id=10]
+[ext_resource path="res://ressources/walk_right/walk_right3.png" type="Texture" id=11]
+[ext_resource path="res://ressources/walk_right/walk_right4.png" type="Texture" id=12]
+[ext_resource path="res://ressources/walk_right/walk_right5.png" type="Texture" id=13]
+[ext_resource path="res://ressources/walk_right/walk_right6.png" type="Texture" id=14]
+[ext_resource path="res://ressources/walk_right/walk_right7.png" type="Texture" id=15]
+[ext_resource path="res://ressources/walk_right/walk_right8.png" type="Texture" id=16]
+[ext_resource path="res://ressources/walk_right/walk_right9.png" type="Texture" id=17]
+[ext_resource path="res://ressources/walk_right/walk_right10.png" type="Texture" id=18]
+[ext_resource path="res://ressources/aroundyesandno/out0.png" type="Texture" id=19]
+[ext_resource path="res://ressources/aroundyesandno/out1.png" type="Texture" id=20]
+[ext_resource path="res://ressources/aroundyesandno/out2.png" type="Texture" id=21]
+[ext_resource path="res://ressources/aroundyesandno/out3.png" type="Texture" id=22]
+[ext_resource path="res://ressources/aroundyesandno/out4.png" type="Texture" id=23]
+[ext_resource path="res://ressources/aroundyesandno/out5.png" type="Texture" id=24]
+[ext_resource path="res://ressources/aroundyesandno/out6.png" type="Texture" id=25]
+[ext_resource path="res://ressources/aroundyesandno/out7.png" type="Texture" id=26]
+[ext_resource path="res://ressources/aroundyesandno/out8.png" type="Texture" id=27]
+[ext_resource path="res://ressources/circular_movement_head/out1.png" type="Texture" id=28]
+[ext_resource path="res://ressources/circular_movement_head/out4.png" type="Texture" id=29]
+[ext_resource path="res://ressources/circular_movement_head/out0.png" type="Texture" id=30]
+[ext_resource path="res://ressources/circular_movement_head/out2.png" type="Texture" id=31]
+[ext_resource path="res://ressources/circular_movement_head/out3.png" type="Texture" id=32]
+[ext_resource path="res://ressources/circular_movement_head/out5.png" type="Texture" id=33]
+[ext_resource path="res://ressources/no/no0.png" type="Texture" id=34]
+[ext_resource path="res://ressources/no/no1.png" type="Texture" id=35]
+[ext_resource path="res://ressources/no/no2.png" type="Texture" id=36]
+[ext_resource path="res://ressources/walk_back/walk_back0.png" type="Texture" id=37]
+[ext_resource path="res://ressources/walk_back/walk_back1.png" type="Texture" id=38]
+[ext_resource path="res://ressources/walk_back/walk_back2.png" type="Texture" id=39]
+[ext_resource path="res://ressources/walk_back/walk_back3.png" type="Texture" id=40]
+[ext_resource path="res://ressources/walk_back/walk_back4.png" type="Texture" id=41]
+[ext_resource path="res://ressources/walk_back/walk_back5.png" type="Texture" id=42]
+[ext_resource path="res://ressources/walk_back/walk_back6.png" type="Texture" id=43]
+[ext_resource path="res://ressources/walk_back/walk_back7.png" type="Texture" id=44]
+[ext_resource path="res://ressources/walk_back/walk_back8.png" type="Texture" id=45]
+[ext_resource path="res://ressources/take_front/take_front0.png" type="Texture" id=46]
+[ext_resource path="res://ressources/take_front/take_front1.png" type="Texture" id=47]
+[ext_resource path="res://ressources/take_front/take_front2.png" type="Texture" id=48]
+[ext_resource path="res://ressources/take_front/take_front3.png" type="Texture" id=49]
+[ext_resource path="res://ressources/walk_front/walk_front_out1.png" type="Texture" id=50]
+[ext_resource path="res://ressources/walk_front/walk_front_out2.png" type="Texture" id=51]
+[ext_resource path="res://ressources/walk_front/walk_front_out3.png" type="Texture" id=52]
+[ext_resource path="res://ressources/walk_front/walk_front_out4.png" type="Texture" id=53]
+[ext_resource path="res://ressources/walk_front/walk_front_out5.png" type="Texture" id=54]
+[ext_resource path="res://ressources/walk_front/walk_front_out6.png" type="Texture" id=55]
+[ext_resource path="res://ressources/walk_front/walk_front_out7.png" type="Texture" id=56]
+[ext_resource path="res://ressources/walk_front/walk_front_out8.png" type="Texture" id=57]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 3 ) ],
-"loop": false,
-"name": "no",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
-"loop": false,
-"name": "circularmovementhead",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
-"loop": false,
-"name": "lookenhaut",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ],
 "loop": true,
-"name": "walk_gauche",
+"name": "take_right",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 6 ) ],
+"loop": false,
+"name": "yesleft",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ) ],
 "loop": false,
 "name": "walk",
 "speed": 2.0
 }, {
-"frames": [ ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ) ],
-"loop": true,
-"name": "walk_face",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ) ],
-"loop": true,
-"name": "walk_dos",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ) ],
-"loop": false,
-"name": "lookbelow",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 58 ) ],
-"loop": true,
-"name": "yes",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ) ],
+"frames": [ ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ) ],
 "loop": false,
 "name": "lookallaround",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ) ],
+"frames": [ ExtResource( 28 ), ExtResource( 20 ), ExtResource( 29 ), ExtResource( 20 ) ],
+"loop": true,
+"name": "yes",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 30 ), ExtResource( 28 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 29 ), ExtResource( 33 ) ],
+"loop": true,
+"name": "circularmovementhead",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 35 ) ],
 "loop": false,
-"name": "yesleft",
+"name": "no",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ) ],
+"loop": false,
+"name": "walk_back",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ) ],
+"loop": true,
+"name": "take_front",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ) ],
+"loop": true,
+"name": "walk_front",
 "speed": 5.0
 } ]
+
+[sub_resource type="CircleShape2D" id=2]
 
 [node name="KinematicBody2D" type="KinematicBody2D"]
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 318, 208 )
+position = Vector2( 315, 259 )
 frames = SubResource( 1 )
-animation = "circularmovementhead"
-frame = 5
+animation = "lookallaround"
+frame = 8
+speed_scale = 0.75
 playing = true
+centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource( 2 )
