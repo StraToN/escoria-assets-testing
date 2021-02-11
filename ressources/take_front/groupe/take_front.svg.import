@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/14yesleft.png-23103ab88b281554e47197701200fa96.stex"
+path="res://.import/take_front.svg-e68c19d4beeea6ab12b7298dee5d6fde.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ressources/yes_left/14yesleft.png"
-dest_files=[ "res://.import/14yesleft.png-23103ab88b281554e47197701200fa96.stex" ]
+source_file="res://ressources/take_front/groupe/take_front.svg"
+dest_files=[ "res://.import/take_front.svg-e68c19d4beeea6ab12b7298dee5d6fde.stex" ]
 
 [params]
 

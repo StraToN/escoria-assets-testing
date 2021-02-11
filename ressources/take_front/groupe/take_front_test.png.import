@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/yes_left.png-61fcd0e98a865f4d531974673f1cfc06.stex"
+path="res://.import/take_front_test.png-30c678d6f69a973383bd8f9a3ec5efbb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ressources/yes_left/yes_left.png"
-dest_files=[ "res://.import/yes_left.png-61fcd0e98a865f4d531974673f1cfc06.stex" ]
+source_file="res://ressources/take_front/groupe/take_front_test.png"
+dest_files=[ "res://.import/take_front_test.png-30c678d6f69a973383bd8f9a3ec5efbb.stex" ]
 
 [params]
 

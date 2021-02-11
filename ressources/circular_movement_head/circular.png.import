@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/yes_left0.png-b2f142f892e2cbf8bddf2705d2b55aff.stex"
+path="res://.import/circular.png-e3dffdb1df44a49dae56790024c85487.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ressources/yes_left/yes_left0.png"
-dest_files=[ "res://.import/yes_left0.png-b2f142f892e2cbf8bddf2705d2b55aff.stex" ]
+source_file="res://ressources/circular_movement_head/circular.png"
+dest_files=[ "res://.import/circular.png-e3dffdb1df44a49dae56790024c85487.stex" ]
 
 [params]
 
