@@ -76,7 +76,7 @@ animations = [ {
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ],
-"loop": false,
+"loop": true,
 "name": "yesleft",
 "speed": 5.0
 }, {
@@ -116,7 +116,7 @@ animations = [ {
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ) ],
-"loop": false,
+"loop": true,
 "name": "walk_right",
 "speed": 2.0
 }, {
@@ -135,7 +135,7 @@ script = ExtResource( 1 )
 position = Vector2( 0, 303 )
 frames = SubResource( 1 )
 animation = "yesleft"
-frame = 2
+frame = 1
 speed_scale = 0.75
 playing = true
 centered = false
