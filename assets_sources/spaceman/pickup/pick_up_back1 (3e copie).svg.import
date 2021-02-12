@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pickup_down1.svg-8f18c6fe8cbfff68341c7cf9a211a739.stex"
+path="res://.import/pick_up_back1 (3e copie).svg-7247b48baa86f89fa22661836f7696ad.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets_sources/spaceman/pickup_down/pickup_down1.svg"
-dest_files=[ "res://.import/pickup_down1.svg-8f18c6fe8cbfff68341c7cf9a211a739.stex" ]
+source_file="res://assets_sources/spaceman/pickup/pick_up_back1 (3e copie).svg"
+dest_files=[ "res://.import/pick_up_back1 (3e copie).svg-7247b48baa86f89fa22661836f7696ad.stex" ]
 
 [params]
 

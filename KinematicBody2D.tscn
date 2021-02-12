@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=67 format=2]
 
 [ext_resource path="res://new_script.gd" type="Script" id=1]
 [ext_resource path="res://assets_sources/spaceman/pick_up_right/pick_up3.svg" type="Texture" id=2]
@@ -24,9 +24,64 @@
 [ext_resource path="res://assets_sources/spaceman/pickup/pick_up_back4.svg" type="Texture" id=22]
 [ext_resource path="res://assets_sources/spaceman/pickup/pick_up_back3.svg" type="Texture" id=23]
 [ext_resource path="res://assets_sources/spaceman/pick_up_right/pick_up1.svg" type="Texture" id=24]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up2.svg" type="Texture" id=25]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front6.svg" type="Texture" id=26]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front7.svg" type="Texture" id=27]
+[ext_resource path="res://assets_sources/spaceman/yes_left/yes_left2.svg" type="Texture" id=28]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front9.svg" type="Texture" id=29]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk4.svg" type="Texture" id=30]
+[ext_resource path="res://assets_sources/spaceman/yes/yes3.svg" type="Texture" id=31]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk2.svg" type="Texture" id=32]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up1.svg" type="Texture" id=33]
+[ext_resource path="res://assets_sources/spaceman/yes/yes1.svg" type="Texture" id=34]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk7.svg" type="Texture" id=35]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk3.svg" type="Texture" id=36]
+[ext_resource path="res://assets_sources/spaceman/pickup_down/pickup_down2.svg" type="Texture" id=37]
+[ext_resource path="res://assets_sources/spaceman/pickup_down/pickup_down1.svg" type="Texture" id=38]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front2.svg" type="Texture" id=39]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk1.svg" type="Texture" id=40]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk6.svg" type="Texture" id=41]
+[ext_resource path="res://assets_sources/spaceman/yes_left/yes_left1.svg" type="Texture" id=42]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front3.svg" type="Texture" id=43]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front4.svg" type="Texture" id=44]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front1.svg" type="Texture" id=45]
+[ext_resource path="res://assets_sources/spaceman/pickup_down/idle_down.svg" type="Texture" id=46]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front5.svg" type="Texture" id=47]
+[ext_resource path="res://assets_sources/spaceman/pickup_down/pickup_down3.svg" type="Texture" id=48]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up3.svg" type="Texture" id=49]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk5.svg" type="Texture" id=50]
+[ext_resource path="res://assets_sources/spaceman/yes_left/yes_left3.svg" type="Texture" id=51]
+[ext_resource path="res://assets_sources/spaceman/walk_down/walk_front8.svg" type="Texture" id=52]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk9.svg" type="Texture" id=53]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk8.svg" type="Texture" id=54]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk10.svg" type="Texture" id=55]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk11.svg" type="Texture" id=56]
+[ext_resource path="res://assets_sources/spaceman/walk_right/walk12.svg" type="Texture" id=57]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up4.svg" type="Texture" id=58]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up5.svg" type="Texture" id=59]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up6.svg" type="Texture" id=60]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up7.svg" type="Texture" id=61]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up8.svg" type="Texture" id=62]
+[ext_resource path="res://assets_sources/spaceman/walk_up/walk_up9.svg" type="Texture" id=63]
+[ext_resource path="res://assets_sources/spaceman/yes/yes2.svg" type="Texture" id=64]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
+"frames": [ ExtResource( 33 ), ExtResource( 25 ), ExtResource( 49 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ) ],
+"loop": true,
+"name": "walk_up",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 42 ), ExtResource( 28 ), ExtResource( 51 ) ],
+"loop": true,
+"name": "yes_left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 34 ), ExtResource( 64 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "yes",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "idle_down",
@@ -45,11 +100,6 @@ animations = [ {
 "frames": [ ExtResource( 16 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "pick_up",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 20 ) ],
-"loop": true,
-"name": "idl_down_left",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 9 ) ],
@@ -72,7 +122,7 @@ animations = [ {
 "name": "idle_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ), ExtResource( 14 ), ExtResource( 3 ) ],
+"frames": [ ExtResource( 14 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 8 ) ],
 "loop": true,
 "name": "no",
 "speed": 5.0
@@ -101,6 +151,26 @@ animations = [ {
 "loop": true,
 "name": "lookat_up_right",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 45 ), ExtResource( 39 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 47 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 52 ), ExtResource( 29 ) ],
+"loop": true,
+"name": "walk_down",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 46 ), ExtResource( 38 ), ExtResource( 37 ), ExtResource( 48 ) ],
+"loop": true,
+"name": "pickup_down",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 40 ), ExtResource( 32 ), ExtResource( 36 ), ExtResource( 30 ), ExtResource( 50 ), ExtResource( 41 ), ExtResource( 35 ), ExtResource( 54 ), ExtResource( 53 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ) ],
+"loop": true,
+"name": "walk_right",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 20 ) ],
+"loop": true,
+"name": "idle_down_left",
+"speed": 5.0
 } ]
 
 [sub_resource type="CircleShape2D" id=2]
@@ -109,9 +179,9 @@ animations = [ {
 script = ExtResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 0, 548 )
+position = Vector2( 0, 555.3 )
 frames = SubResource( 1 )
-animation = "pick_up"
+animation = "pick_up_right"
 frame = 2
 speed_scale = 0.75
 playing = true

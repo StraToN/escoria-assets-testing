@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="30.475897"
-   height="73.998787"
-   viewBox="0 0 8.0634141 19.578846"
+   width="82.368645"
+   height="200"
+   viewBox="0 0 21.79337 52.916667"
    version="1.1"
    id="svg872"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="lookaround (6e copie).svg"
+   sodipodi:docname="lookat_up_left.svg"
    inkscape:export-filename="/home/karine/escoria-assets-testing/ressources/lookaround/lookaround.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.6155689"
-     inkscape:cx="14.623791"
-     inkscape:cy="28.206703"
+     inkscape:zoom="4.4258177"
+     inkscape:cx="14.623803"
+     inkscape:cy="28.206702"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -62,7 +62,7 @@
      transform="translate(-240.0955,-16.271371)">
     <g
        id="g479"
-       transform="matrix(0.16310133,0,0,0.16268191,182.94924,13.55513)">
+       transform="matrix(0.44082163,0,0,0.43968804,85.643625,8.9300581)">
       <g
          id="g334-0-9-0"
          transform="translate(323.45018,-5.5623789)">

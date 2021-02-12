@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24.035761mm"
+   width="30mm"
    height="52.916668mm"
-   viewBox="0 0 24.035761 52.916673"
+   viewBox="0 0 30 52.916674"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="pick_up2.svg"
-   inkscape:export-filename="/home/karine/escoria-assets-testing/ressources/take_front/take_front_test.png"
+   sodipodi:docname="pick_up_back1(copie).svg"
+   inkscape:export-filename="/home/karine/escoria-assets-testing/ressources/take_back/take_back_test.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0988936"
-     inkscape:cx="99.810535"
-     inkscape:cy="224.87935"
+     inkscape:zoom="2.7117177"
+     inkscape:cx="56.692913"
+     inkscape:cy="118.40917"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -51,36 +51,12 @@
     <inkscape:grid
        type="xygrid"
        id="grid837"
-       originx="-117.76759"
-       originy="-91.139853" />
+       originx="-229.74266"
+       originy="-92.807098" />
     <sodipodi:guide
-       position="-42.76833,109.56189"
-       orientation="1,0"
-       id="guide979" />
-    <sodipodi:guide
-       position="17.26583,43.746662"
-       orientation="1,0"
-       id="guide981" />
-    <sodipodi:guide
-       position="77.496515,100.30583"
-       orientation="1,0"
-       id="guide983" />
-    <sodipodi:guide
-       position="137.36325,105.70849"
+       position="15.000101,58.07381"
        orientation="1,0"
        id="guide985" />
-    <sodipodi:guide
-       position="-15.681423,-28.486958"
-       orientation="1,0"
-       id="guide1102" />
-    <sodipodi:guide
-       position="45.092314,-73.349021"
-       orientation="1,0"
-       id="guide1104" />
-    <sodipodi:guide
-       position="105.42405,-45.061611"
-       orientation="1,0"
-       id="guide1108" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -90,7 +66,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -98,10 +74,10 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-117.76758,-91.139772)">
+     transform="translate(-229.74265,-92.807017)">
     <g
        id="g1439"
-       transform="matrix(0.44109728,0,0,0.44109728,61.007083,68.893115)">
+       transform="matrix(0.44109727,0,0,0.44109727,174.90593,70.560362)">
       <path
          id="rect856-1-3-8-6-8-6"
          style="fill:#87cdde;fill-opacity:1;stroke:#000000;stroke-width:1.42086;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"

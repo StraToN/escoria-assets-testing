@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/idle_down.svg-54aba9d51fb8178b0fa7c1483f66b801.stex"
+path="res://.import/pick_up_down_1.svg-8a3d1afe245ce5d92780c98c3f52035d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets_sources/spaceman/pickup_down/idle_down.svg"
-dest_files=[ "res://.import/idle_down.svg-54aba9d51fb8178b0fa7c1483f66b801.stex" ]
+source_file="res://assets_sources/spaceman/pickup_down/pick_up_down_1.svg"
+dest_files=[ "res://.import/pick_up_down_1.svg-8a3d1afe245ce5d92780c98c3f52035d.stex" ]
 
 [params]
 
@@ -31,4 +31,4 @@ process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true
-svg/scale=1.0
+svg/scale=0.5
