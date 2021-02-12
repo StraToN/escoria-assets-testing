@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lookat_up_left.svg-d9d6eade27ab472cdc900e9107323276.stex"
+path="res://.import/lookat_up_left.svg-97a6f43c754f64820e7a47555220d734.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/lookat/lookat_up_left.svg"
-dest_files=[ "res://.import/lookat_up_left.svg-d9d6eade27ab472cdc900e9107323276.stex" ]
+source_file="res://assets_sources/spaceman/lookat/lookat_up_left.svg"
+dest_files=[ "res://.import/lookat_up_left.svg-97a6f43c754f64820e7a47555220d734.stex" ]
 
 [params]
 

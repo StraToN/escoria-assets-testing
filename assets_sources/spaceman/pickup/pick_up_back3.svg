@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="43.051487mm"
-   height="94.250214mm"
-   viewBox="0 0 43.051489 94.250223"
+   width="24.171204mm"
+   height="52.916668mm"
+   viewBox="0 0 24.171205 52.916673"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
@@ -26,7 +26,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5540701"
+     inkscape:zoom="1.4901806"
      inkscape:cx="121.41751"
      inkscape:cy="185.57494"
      inkscape:document-units="mm"
@@ -51,34 +51,34 @@
     <inkscape:grid
        type="xygrid"
        id="grid837"
-       originx="-170.3759"
-       originy="-92.807075" />
+       originx="-170.37591"
+       originy="-92.807085" />
     <sodipodi:guide
-       position="-95.376637,152.56267"
+       position="-95.37664,111.22912"
        orientation="1,0"
        id="guide979" />
     <sodipodi:guide
-       position="-35.342477,86.747446"
+       position="-35.342479,45.413898"
        orientation="1,0"
        id="guide981" />
     <sodipodi:guide
-       position="24.888205,143.30661"
+       position="24.888204,101.97306"
        orientation="1,0"
        id="guide983" />
     <sodipodi:guide
-       position="84.754936,148.70927"
+       position="84.754937,107.37572"
        orientation="1,0"
        id="guide985" />
     <sodipodi:guide
-       position="-68.289729,14.513826"
+       position="-68.289732,-26.819724"
        orientation="1,0"
        id="guide1102" />
     <sodipodi:guide
-       position="-7.515996,-30.348237"
+       position="-7.5159974,-71.681788"
        orientation="1,0"
        id="guide1104" />
     <sodipodi:guide
-       position="52.815735,-2.060828"
+       position="52.815735,-43.394378"
        orientation="1,0"
        id="guide1108" />
   </sodipodi:namedview>
@@ -90,7 +90,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -98,9 +98,10 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-170.37588,-92.807008)">
+     transform="translate(-170.37588,-92.807007)">
     <g
-       id="g1584">
+       id="g1584"
+       transform="matrix(0.56144877,0,0,0.56144877,74.718552,40.700627)">
       <path
          id="rect892-5-0-2-3-2-6-5-6-7-2"
          style="fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:1.21162;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/walk4.svg-7983050a4ef5ef0a5212d10a7a3a55da.stex"
+path="res://.import/walk4.svg-01f3a905f1b9aa87007913d96e98d64d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/walk_right/walk4.svg"
-dest_files=[ "res://.import/walk4.svg-7983050a4ef5ef0a5212d10a7a3a55da.stex" ]
+source_file="res://assets_sources/spaceman/walk_right/walk4.svg"
+dest_files=[ "res://.import/walk4.svg-01f3a905f1b9aa87007913d96e98d64d.stex" ]
 
 [params]
 

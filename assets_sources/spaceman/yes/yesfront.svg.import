@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/yesfront.svg-689045c536c66809ddcb5cd7a54cf93c.stex"
+path="res://.import/yesfront.svg-ff5bda117a1d179c5631c8303b48ade4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/yes/yesfront.svg"
-dest_files=[ "res://.import/yesfront.svg-689045c536c66809ddcb5cd7a54cf93c.stex" ]
+source_file="res://assets_sources/spaceman/yes/yesfront.svg"
+dest_files=[ "res://.import/yesfront.svg-ff5bda117a1d179c5631c8303b48ade4.stex" ]
 
 [params]
 

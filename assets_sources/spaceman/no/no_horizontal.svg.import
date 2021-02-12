@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/no_horizontal.svg-c04a9dfd3178a7ffe6043c92e6a11333.stex"
+path="res://.import/no_horizontal.svg-1981a559f89142ddec0ba67fcd8702c4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/no/no_horizontal.svg"
-dest_files=[ "res://.import/no_horizontal.svg-c04a9dfd3178a7ffe6043c92e6a11333.stex" ]
+source_file="res://assets_sources/spaceman/no/no_horizontal.svg"
+dest_files=[ "res://.import/no_horizontal.svg-1981a559f89142ddec0ba67fcd8702c4.stex" ]
 
 [params]
 

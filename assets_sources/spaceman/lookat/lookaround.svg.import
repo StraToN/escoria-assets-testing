@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lookaround.svg-a8b10dc43e126db56dc9e9c44995cb51.stex"
+path="res://.import/lookaround.svg-d6af4b2f3e6e045fa0db5631fe1fec96.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/lookat/lookaround.svg"
-dest_files=[ "res://.import/lookaround.svg-a8b10dc43e126db56dc9e9c44995cb51.stex" ]
+source_file="res://assets_sources/spaceman/lookat/lookaround.svg"
+dest_files=[ "res://.import/lookaround.svg-d6af4b2f3e6e045fa0db5631fe1fec96.stex" ]
 
 [params]
 

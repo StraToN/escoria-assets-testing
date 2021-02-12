@@ -63,10 +63,11 @@
 [ext_resource path="res://ressources/walk_right/walk_right8.png" type="Texture" id=61]
 [ext_resource path="res://ressources/walk_right/walk_right9.png" type="Texture" id=62]
 [ext_resource path="res://ressources/walk_right/walk_right10.png" type="Texture" id=63]
-[ext_resource path="res://ressources/take_back/take_back0.png" type="Texture" id=64]
-[ext_resource path="res://ressources/take_back/take_back1.png" type="Texture" id=65]
-[ext_resource path="res://ressources/take_back/take_back2.png" type="Texture" id=66]
-[ext_resource path="res://ressources/take_back/take_back3.png" type="Texture" id=67]
+[ext_resource path="res://assets_sources/spaceman/pickup/groupe/take_back0.png" type="Texture" id=64]
+[ext_resource path="res://assets_sources/spaceman/pickup/groupe/take_back1.png" type="Texture" id=65]
+[ext_resource path="res://assets_sources/spaceman/pickup/groupe/take_back2.png" type="Texture" id=66]
+[ext_resource path="res://assets_sources/spaceman/pickup/groupe/take_back3.png" type="Texture" id=67]
+
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {

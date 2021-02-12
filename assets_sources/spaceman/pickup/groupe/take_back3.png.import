@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/take_back3.png-bc16d038b00d31068f7a7685e9122c95.stex"
+path="res://.import/take_back3.png-3c3b47649175d0654cc1a5b2ae0d63a5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/pickup/groupe/take_back3.png"
-dest_files=[ "res://.import/take_back3.png-bc16d038b00d31068f7a7685e9122c95.stex" ]
+source_file="res://assets_sources/spaceman/pickup/groupe/take_back3.png"
+dest_files=[ "res://.import/take_back3.png-3c3b47649175d0654cc1a5b2ae0d63a5.stex" ]
 
 [params]
 

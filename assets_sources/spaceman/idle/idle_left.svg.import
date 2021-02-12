@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/idle_left.svg-c1fe2c81e90b0e72ba5e939dc04019c3.stex"
+path="res://.import/idle_left.svg-6b770fe3361191f1c0a1a45c856c687f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/idle/idle_left.svg"
-dest_files=[ "res://.import/idle_left.svg-c1fe2c81e90b0e72ba5e939dc04019c3.stex" ]
+source_file="res://assets_sources/spaceman/idle/idle_left.svg"
+dest_files=[ "res://.import/idle_left.svg-6b770fe3361191f1c0a1a45c856c687f.stex" ]
 
 [params]
 

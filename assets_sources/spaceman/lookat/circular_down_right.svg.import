@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/circular_down_right.svg-c485b4e900edfcfbe85ab4fc9ecc2858.stex"
+path="res://.import/circular_down_right.svg-56d37f3e377401ed5766091f8dea4424.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/lookat/circular_down_right.svg"
-dest_files=[ "res://.import/circular_down_right.svg-c485b4e900edfcfbe85ab4fc9ecc2858.stex" ]
+source_file="res://assets_sources/spaceman/lookat/circular_down_right.svg"
+dest_files=[ "res://.import/circular_down_right.svg-56d37f3e377401ed5766091f8dea4424.stex" ]
 
 [params]
 

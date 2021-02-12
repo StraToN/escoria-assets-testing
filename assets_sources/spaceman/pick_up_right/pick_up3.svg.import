@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pick_up3.svg-3211131044e14d835a83969707306bbe.stex"
+path="res://.import/pick_up3.svg-44474d970ffe427fe48418828c04bd38.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets_sources/spaceman/pick_up_right/pick_up3.svg"
-dest_files=[ "res://.import/pick_up3.svg-3211131044e14d835a83969707306bbe.stex" ]
+source_file="res://assets_sources/spaceman/pick_up_right/pick_up3.svg"
+dest_files=[ "res://.import/pick_up3.svg-44474d970ffe427fe48418828c04bd38.stex" ]
 
 [params]
 
